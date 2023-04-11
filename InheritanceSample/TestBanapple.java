@@ -1,0 +1,3 @@
+class TestBanapple implements Banapple {
+    
+}
