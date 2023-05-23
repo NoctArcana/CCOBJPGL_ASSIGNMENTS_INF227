@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="549.0" prefWidth="880.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.FastFoodController">
+   <children>
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="99.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/KFC.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="kfcBtn" layoutX="99.0" layoutY="209.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="45.0" prefWidth="150.0" text="KFC" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="347.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Popeyes.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="popeyesBtn" layoutX="365.0" layoutY="209.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="45.0" prefWidth="150.0" text="POPEYES" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="653.0" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Bonchon.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="bonchonBtn" layoutX="643.0" layoutY="217.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="45.0" prefWidth="150.0" text="BONCHON" />
+      <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="226.0" layoutY="295.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Chowking.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="chowkingBtn" layoutX="221.0" layoutY="462.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="45.0" prefWidth="150.0" text="CHOWKING" />
+      <ImageView fitHeight="150.0" fitWidth="140.0" layoutX="534.0" layoutY="299.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/BurgerKing.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="burgerkingBtn" layoutX="534.0" layoutY="462.0" mnemonicParsing="false" onAction="#showInfo" prefHeight="45.0" prefWidth="150.0" text="BURGER KING" />
+   </children>
+</AnchorPane>
